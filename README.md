@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 To analyze a PCAP file, run the following command:
 
-python Network_Traffic_Analyzer_V2.py <path_to_pcap_file> <port_scan_threshold>
+python Network_traffic_analyzer.py <path_to_pcap_file> <port_scan_threshold>
 
 
 Replace `<path_to_pcap_file>` with the path to your PCAP file, and `<port_scan_threshold>` with the desired threshold for detecting port scanning activities.
